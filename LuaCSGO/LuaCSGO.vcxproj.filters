@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\utils">
+      <UniqueIdentifier>{0460c8fa-5b23-46e4-87e5-88007427bfb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\utils\console">
+      <UniqueIdentifier>{fa300714-4148-4778-84af-16be368c3dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\utils\json">
+      <UniqueIdentifier>{785f8f62-c9ad-4f76-b4cb-ab91d054057a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\config">
+      <UniqueIdentifier>{9e4e56e8-37fb-406f-a05f-c888b5d56187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\lua">
+      <UniqueIdentifier>{37f44de1-9b33-4bc3-ab41-cdf723c3736d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\console\console.cpp">
+      <Filter>Source\utils\console</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\json\jsoncpp.cpp">
+      <Filter>Source\utils\json</Filter>
+    </ClCompile>
+    <ClCompile Include="config\config.cpp">
+      <Filter>Source\config</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\Clua.cpp">
+      <Filter>Source\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\console\console.h">
+      <Filter>Source\utils\console</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\KeyState.h">
+      <Filter>Source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\json\json.h">
+      <Filter>Source\utils\json</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\json\json-forwards.h">
+      <Filter>Source\utils\json</Filter>
+    </ClInclude>
+    <ClInclude Include="config\config.h">
+      <Filter>Source\config</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\Clua.h">
+      <Filter>Source\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
